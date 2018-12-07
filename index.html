@@ -2,28 +2,45 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Scoped CSS Variables and JS</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Google Fonts Tester</title>
+        
         <link rel="stylesheet" href="#" id="fontlink">
         <!-- To get the color name from hex code. ntc(hex code) -->
         <script type="text/javascript" src="ntc.js"></script>
         <script defer type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
 
     <body>
+        <h5>Quickly test your desired Google font with different sizes and colors! </h5>
+        <div class="instructions">
+            <button class="instr">Instructions</button> <br>
+            <div class="instrlist hidden">
+                <ul>
+                    <li>Select the required font size for the display text.</li>
+                    <li>Select the required Google font from the dropdown.</li>
+                    <li>Move mouse over the text to see it getting displayed in different colors.</li>
+                </ul>
+            </div>
+        </div>
     
-        <label for="size" class="label">Font Size:</label>
-        <input id="size" type="range" name="size" min="2" max="100" value="10" data-sizing="px">   
-        <span class="fontsize"></span>
-        <br>
-        <select class="fontselect"></select>       
-                    
-        <p class="label">Color Name: 
-            <span class="colorname"></span>
-        </p>
+        <div class="main">
+            <label for="size" class="label">Font Size (in px):</label>
+            <!-- <input id="size" type="range" name="size" min="2" max="100" value="10" data-sizing="px">    -->
+            <!-- <span class="fontsize"></span> -->
+        
+            <input type="number" id="size" type="range" name="size" min="1" value="10" data-sizing="px">
+            <label for="size" class="label">Google Font:</label>
+            <select class="fontselect"></select>       
 
-        <p class="text">The quick brown fox jumps over the lazy dog!</p>
+            <p class="label">Color Name: 
+                <span class="colorname"></span>
+            </p>
 
+            <p class="text">The quick brown fox jumps over the lazy dog!</p>
+        </div>
+
+        
     </body> 
 </html> 

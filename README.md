@@ -1,8 +1,13 @@
 
 ## Google Fonts Tester
 
+#### Deployed Site:
+https://sherinsam-google-fonts-tester.netlify.com/
+
+
 #### Purpose:
-To test the various google fonts with different colors and font sizes. A faster alternative to checking the same in Google fonts website.
+To give you  quick glimpse on how various google fonts looks with different colors and font sizes. A faster alternative to checking the same in Google fonts website.
+
 
 #### Instructions:
 1. Slider lets you select the font size of the displayed text.
@@ -23,4 +28,4 @@ https://developers.google.com/fonts/docs/developer_api
 https://github.com/typekit/webfontloader
 
 ### Future Enhancements
-1. Incorporate styles such as Italics  to each font.
+1. Incorporate styles such as Italics, Bold  to each font.

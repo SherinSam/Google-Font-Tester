@@ -5,17 +5,24 @@
 body {
     text-align: center;
     background: white;
-    color:#193549;
+    color: #504949;
     font-family: 'helvetica neue', sans-serif;
-    font-weight: 100;
-    font-size: 50px;               
+    font-weight: ;
+    font-size: 20px;   
+}
+
+.main {
+    margin-top: 30px;
+}
+
+#size {
+    width: 100px;
 }
 
 .text {
     font-size: var(--size);
-    color: black;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 160px;
+    margin-top: 150px;
 }
 
 .fontsize {
@@ -24,6 +31,7 @@ body {
 
 .label {
     font-size: 15px;
+    margin-left: 10px;
 }
 
 .colorname {
@@ -32,4 +40,32 @@ body {
 
 input {
     width: 200px;
+}
+
+.instructions {
+    margin-top: 5px;
+}
+
+.instrlist {    
+    font-size: 15px; 
+    border: grey double 1px;
+    background-color: #bbff99;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2%;    
+    padding: 5px;
+    
+}
+
+.instrlist ul li {
+    list-style-type: none;
+}
+
+.instr {
+    margin-bottom: 10px;
+    background-color: #bbff99;
+}
+
+.hidden {
+    display: none;
 }
