@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scoped CSS Variables and JS</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="#" id="fontlink">
+        <!-- To get the color name from hex code. ntc(hex code) -->
+        <script type="text/javascript" src="http://chir.ag/projects/ntc/ntc.js"></script>
+        <script defer type="text/javascript" src="index.js"></script>
+    </head>
+
+
+    <body>
+    
+        <label for="size" class="label">Font Size:</label>
+        <input id="size" type="range" name="size" min="2" max="100" value="10" data-sizing="px">   
+        <span class="fontsize"></span>
+        <br>
+        <select class="fontselect"></select>       
+                    
+        <p class="label">Color Name: 
+            <span class="colorname"></span>
+        </p>
+
+        <p class="text">The quick brown fox jumps over the lazy dog!</p>
+
+    </body> 
+</html> 

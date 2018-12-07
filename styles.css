@@ -1,0 +1,35 @@
+:root {
+    --size: 25px;
+}
+
+body {
+    text-align: center;
+    background: white;
+    color:#193549;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;               
+}
+
+.text {
+    font-size: var(--size);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 160px;
+}
+
+.fontsize {
+    font-size: 15px;
+}
+
+.label {
+    font-size: 15px;
+}
+
+.colorname {
+    font-size: 18px;
+}
+
+input {
+    width: 200px;
+}
