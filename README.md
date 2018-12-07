@@ -6,11 +6,11 @@ https://sherinsam-google-fonts-tester.netlify.com/
 
 
 #### Purpose:
-To give you  quick glimpse on how various google fonts looks with different colors and font sizes. A faster alternative to checking the same in Google fonts website.
+To give you  quick glimpse on how various Google fonts look with different colors and font sizes. A faster alternative to checking the same in Google fonts website.
 
 
 #### Instructions:
-1. Slider lets you select the font size of the displayed text.
+1. Select the required font size for the display text.
 2. Select the required Google font from the dropdown.
 3. Move mouse over the text to see it getting displayed in different colors. Color name and hex code will be displayed on the top.
 
@@ -24,8 +24,10 @@ https://developers.google.com/fonts/docs/developer_api
 2. https://stackoverflow.com/questions/524696/how-to-create-a-style-tag-with-javascript
 3. http://chir.ag/projects/ntc/ntc.js
 
+
 ### Future Reference
 https://github.com/typekit/webfontloader
 
+
 ### Future Enhancements
-1. Incorporate styles such as Italics, Bold  to each font.
+1. Incorporate styles such as Italics and Bold.
