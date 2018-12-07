@@ -18,18 +18,15 @@
             <button class="instr">Instructions</button> <br>
             <div class="instrlist hidden">
                 <ul>
-                    <li>Select the required font size for the display text.</li>
-                    <li>Select the required Google font from the dropdown.</li>
-                    <li>Move mouse over the text to see it getting displayed in different colors.</li>
+                    <li class="list">Select the required font size for the display text.</li>
+                    <li class="list">Select the required Google font from the dropdown.</li>
+                    <li class="list">Move mouse over the text to see it getting displayed in different colors.</li>
                 </ul>
             </div>
         </div>
     
         <div class="main">
-            <label for="size" class="label">Font Size (in px):</label>
-            <!-- <input id="size" type="range" name="size" min="2" max="100" value="10" data-sizing="px">    -->
-            <!-- <span class="fontsize"></span> -->
-        
+            <label for="size" class="label">Font Size (in px):</label>        
             <input type="number" id="size" type="range" name="size" min="1" value="10" data-sizing="px">
             <label for="size" class="label">Google Font:</label>
             <select class="fontselect"></select>       

@@ -7,8 +7,11 @@ body {
     background: white;
     color: #504949;
     font-family: 'helvetica neue', sans-serif;
-    font-weight: ;
     font-size: 20px;   
+}
+
+.list {
+    padding-bottom: 5px;
 }
 
 .main {
